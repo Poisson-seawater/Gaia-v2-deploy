@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "generated_at_commit": "1d5412a",
+  "generated_at": "2026-07-08",
+  "langue": "fr",
+  "objectif": "Gaia est une carte de la consommation de ressources. Elle aide a comprendre les empreintes par territoire, a discuter les donnees, et a contribuer des corrections sans lire le code.",
+  "pages": {
+    "home": {
+      "sources": [
+        "docs/pages/home.md",
+        "docs/pages/_mindmap.md",
+        "docs/index.html"
+      ]
+    },
+    "carte-de-l-app": {
+      "sources": [
+        "docs/pages/carte-de-l-app.md",
+        "src/components/explorer/",
+        "src/components/AccountPanel.tsx",
+        "src/components/AuthForm.tsx",
+        "src/components/ContributionPanel.tsx",
+        "src/utils/contributionCsv.ts",
+        "src/components/DebateList.tsx",
+        "src/components/DebateChannel.tsx",
+        "src/components/DebateCreateForm.tsx",
+        "src/components/RepresentativePanel.tsx",
+        "src/components/AdminPanel.tsx",
+        "src/components/GlobalLimitsManager.tsx",
+        "src/components/VitalThresholdsManager.tsx",
+        "src/components/ResponsablesManager.tsx",
+        "src/components/TerritoryMergeManager.tsx",
+        "src/components/TerritoryBalanceReport.tsx",
+        "src/components/TopologyProposalManager.tsx",
+        "src/components/TopologySplitEditor.tsx",
+        "src/components/app/AppHeader.tsx",
+        "e2e/smoke-public.spec.ts",
+        "e2e/smoke-admin.spec.ts",
+        "e2e/smoke-representative.spec.ts"
+      ]
+    },
+    "regles-et-variables": {
+      "sources": [
+        "docs/pages/regles-et-variables.md",
+        "src/constants.ts",
+        "src/data/types.ts",
+        "src/utils/thresholds.ts"
+      ]
+    },
+    "journal": {
+      "sources": [
+        "docs/pages/journal.md",
+        "docs/.docstate.json",
+        "log.md"
+      ]
+    },
+    "hierarchie-fractale": {
+      "sources": [
+        "docs/pages/hierarchie-fractale.md",
+        "src/data/fractalTree.ts",
+        "src/data/types.ts"
+      ]
+    },
+    "sources-de-donnees": {
+      "sources": [
+        "docs/pages/sources-de-donnees.md",
+        "src/data/craftData.ts",
+        "src/data/foodPurchasesData.ts",
+        "src/hooks/useGaiaContributions.ts",
+        "src/hooks/gaiaContributions/"
+      ]
+    },
+    "kgi-et-indicateurs": {
+      "sources": [
+        "docs/pages/kgi-et-indicateurs.md",
+        "src/utils/kgi.ts",
+        "src/utils/metrics.ts",
+        "src/utils/thresholds.ts"
+      ]
+    },
+    "visualisations": {
+      "sources": [
+        "docs/pages/visualisations.md",
+        "src/App.tsx",
+        "src/components/explorer/ExplorerView.tsx",
+        "src/components/explorer/ExplorerViewport.tsx",
+        "src/components/MapChart.tsx",
+        "src/components/ThreeDChart.tsx"
+      ]
+    },
+    "contribution": {
+      "sources": [
+        "docs/pages/contribution.md",
+        "src/components/ContributionPanel.tsx",
+        "src/hooks/useGaiaContributions.ts",
+        "src/hooks/gaiaContributions/"
+      ]
+    },
+    "charte-graphique": {
+      "sources": [
+        "docs/pages/charte-graphique.md",
+        "docs/assets/styles.css",
+        "src/App.css",
+        "src/index.css"
+      ]
+    },
+    "roles-et-contributions": {
+      "sources": [
+        "docs/pages/roles-et-contributions.md",
+        "src/components/AdminPanel.tsx",
+        "src/components/RepresentativePanel.tsx",
+        "src/hooks/useGaiaContributions.ts",
+        "src/hooks/gaiaContributions/"
+      ]
+    },
+    "readme": {
+      "sources": [
+        "docs/pages/readme.md",
+        "package.json",
+        "AGENTS.md",
+        "src/App.tsx",
+        "src/components/app/",
+        "src/components/explorer/",
+        "src/hooks/"
+      ]
+    },
+    "onboarding": {
+      "sources": [
+        "docs/pages/onboarding.md",
+        "AGENTS.md",
+        "package.json",
+        "src/App.tsx",
+        "src/components/app/",
+        "src/components/explorer/",
+        "src/hooks/"
+      ]
+    },
+    "architecture": {
+      "sources": [
+        "docs/pages/architecture.md",
+        "context-gaia-dev",
+        "src/App.tsx",
+        "src/components/app/AppHeader.tsx",
+        "src/components/app/AppViewRouter.tsx",
+        "src/components/explorer/ExplorerView.tsx",
+        "src/hooks/useAppNavigation.ts",
+        "src/hooks/useExplorerState.ts",
+        "src/hooks/useLiveOverwriteDraft.ts",
+        "src/hooks/useGaiaContributions.ts",
+        "src/hooks/gaiaContributions/"
+      ]
+    },
+    "api-reference": {
+      "sources": [
+        "docs/pages/api-reference.md",
+        "src/data/types.ts",
+        "src/utils/thresholds.ts",
+        "src/utils/topology.ts"
+      ]
+    },
+    "new-user": {
+      "sources": [
+        "docs/pages/new-user.md",
+        "src/App.tsx",
+        "src/components/explorer/ExplorerView.tsx"
+      ]
+    },
+    "user": {
+      "sources": [
+        "docs/pages/user.md",
+        "src/App.tsx",
+        "src/components/explorer/ExplorerView.tsx",
+        "src/components/MapChart.tsx",
+        "src/data/contributionAdapter.ts",
+        "docs/assets/styles.css",
+        "src/index.css"
+      ]
+    },
+    "dev": {
+      "sources": [
+        "docs/pages/dev.md",
+        "AGENTS.md",
+        "package.json",
+        "src/App.tsx",
+        "playwright.config.ts",
+        "e2e/"
+      ]
+    }
+  }
+}

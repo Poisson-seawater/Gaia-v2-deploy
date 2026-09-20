@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){try{var k='pwdoc-theme',t=localStorage.getItem(k);if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <title>Gaïa Equation — documentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="masthead" id="top">
+    <div class="masthead__inner">
+      <div class="masthead__brand">
+        <p class="masthead__title"><a href="#/">Gaïa Equation</a></p>
+        <p class="masthead__subtitle">Documentation — comprendre le projet sans lire le code</p>
+      </div>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Basculer entre thème clair et sombre">
+        <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        <span class="theme-toggle__label">Sombre</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidenav" aria-label="Navigation de la documentation">
+      <ul>
+        <li><a href="#/">Accueil</a></li>
+        <li><a href="#/carte-de-l-app">Carte de l'app (tests)</a></li>
+        <li><a href="#/regles-et-variables">Règles &amp; variables</a></li>
+        <li><a href="#/journal">Journal des mises à jour</a></li>
+        <li><a href="mindmap.html" target="_blank" rel="noopener">Carte mentale ↗</a></li>
+      </ul>
+      <p class="sidenav__heading">Par où entrer ?</p>
+      <ul>
+        <li><a href="#/new-user">Découvrir</a></li>
+        <li><a href="#/user">Utiliser</a></li>
+        <li><a href="#/dev">Développer</a></li>
+      </ul>
+      <p class="sidenav__heading">Concepts</p>
+      <ul>
+        <li><a href="#/hierarchie-fractale">Hiérarchie fractale</a></li>
+        <li><a href="#/sources-de-donnees">Sources de données</a></li>
+        <li><a href="#/kgi-et-indicateurs">KGI &amp; Indicateurs</a></li>
+        <li><a href="#/visualisations">Visualisations</a></li>
+        <li><a href="#/contribution">Contribution</a></li>
+        <li><a href="#/charte-graphique">Charte graphique</a></li>
+        <li><a href="#/roles-et-contributions">Rôles &amp; contributions</a></li>
+      </ul>
+      <p class="sidenav__heading">Doc technique</p>
+      <ul>
+        <li><a href="#/readme">Vue d'ensemble</a></li>
+        <li><a href="#/architecture">Architecture</a></li>
+        <li><a href="#/onboarding">Mise en route (dev)</a></li>
+        <li><a href="#/api-reference">Référence API</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <article class="prose" id="doc-article" aria-live="polite"></article>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>Documentation Gaïa Equation · à jour au commit c8b6cd0 · 2026-07-08.</span>
+      <a href="#top">↑ Haut de page</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.18/dist/browser/index.iife.js"></script>
+  <script src="assets/diagrams.js"></script>
+  <script src="assets/render.js"></script>
+  <script src="assets/theme.js"></script>
+</body>
+</html>

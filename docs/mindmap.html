@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>(function(){try{var k='pwdoc-theme',t=localStorage.getItem(k);if(!t)t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <title>Carte mentale — Gaïa Equation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="mindmap-page">
+  <header class="mm-topbar">
+    <a class="mm-back" href="index.html#/">← Retour à la doc</a>
+    <span class="mm-title">Carte mentale — Gaïa Equation</span>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" aria-label="Basculer entre thème clair et sombre">
+      <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+      <span class="theme-toggle__label">Sombre</span>
+    </button>
+  </header>
+
+  <div class="mindmap-full">
+    <svg class="markmap" data-mindmap="pages/_mindmap.md"></svg>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.18/dist/browser/index.iife.js"></script>
+  <script src="assets/diagrams.js"></script>
+  <script>PWDoc.renderMindmaps(document);</script>
+  <script src="assets/theme.js"></script>
+</body>
+</html>
