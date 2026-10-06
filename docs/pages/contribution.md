@@ -33,7 +33,8 @@ C'est le mécanisme principal pour publier plusieurs valeurs à la fois. Un repr
      │ Exporter CSV
      ▼
 Fichier large : une ligne par fractale × année,
-colonnes data / vital / limite + source / URL / justification par cellule
+source / URL / justification de la ligne + colonnes data / vital / limite
++ source / URL / justification par cellule (facultatives)
      │ édition hors-ligne (tableur)
      ▼
 Importer un CSV modifié
@@ -51,13 +52,16 @@ exactement les fractales attribuées au représentant — jamais leurs descendan
 fichier reste lisible dans un tableur : une ligne par fractale et par année, avec les valeurs de
 données, les seuils vitaux et les limites de fractale déjà en place.
 
-**Éditer.** Chaque cellule modifiable (donnée, vital, limite) porte trois colonnes qui lui sont
-propres : `source_label`, `source_url` et `justification`. Une cellule laissée vide dans le fichier
+**Éditer.** Juste après l'année, trois colonnes valent pour toute la ligne : `source_label`,
+`source_url` et `justification`. Chaque cellule modifiable (donnée, vital, limite) porte en plus ses
+trois colonnes propres (`<colonne>.source_label`, etc.) : remplies, elles remplacent celles de la ligne
+pour cette cellule ; vides, la source de la ligne s'applique. Exemple : une ligne sourcée « Enquête
+habitants 2026 » dont seule la cellule énergie porte « Facture EDF 2025 ». Une cellule laissée vide dans le fichier
 n'est **jamais** interprétée comme une suppression : elle est simplement ignorée à l'import.
 
 **Importer.** Le bouton `Choisir un fichier` relit le CSV modifié et affiche un aperçu chiffré : lignes
 lues, cellules modifiées, cellules inchangées, cellules vides ignorées. Toute cellule changée sans
-`source_label` ni `justification`, toute ligne hors périmètre du représentant, toute année hors de
+source ou sans justification (ni dans sa colonne, ni dans celle de la ligne), toute ligne hors périmètre du représentant, toute année hors de
 1900–2100 ou toute ligne dupliquée (même fractale, même année) bloque **tout** le fichier — la
 publication reste tout ou rien.
 
@@ -70,9 +74,8 @@ chaque ligne et chaque cellule rejetée.
 > système 1993 / 2023 / 2050. Cette année devient aussitôt disponible dans **Explorer**, sans étape de
 > validation admin. Voir [Règles & variables](#/regles-et-variables).
 
-**Rétro-compatibilité.** Les anciens fichiers CSV, qui portaient leurs colonnes source, URL et
-justification une seule fois **par ligne** plutôt que par cellule, restent acceptés à l'import. Gaïa les
-lit comme si la même source s'appliquait à toutes les cellules changées de la ligne.
+**Rétro-compatibilité.** Les anciens fichiers CSV restent acceptés à l'import, qu'ils portent leurs
+colonnes source / URL / justification seulement par ligne ou seulement par cellule.
 
 Il n'existe plus de file de validation admin pour les contributions : publier un import valide suffit,
 sans relecture centrale a posteriori.
