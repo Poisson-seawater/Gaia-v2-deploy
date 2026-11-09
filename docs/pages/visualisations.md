@@ -65,6 +65,6 @@ La coloration des territoires suit `src/constants.ts` (détails dans
 |---|---|---|
 | Sous le vital | Bleu | `#3b82f6` |
 | Au-dessus de la limite | Rouge | `#dc2626` |
-| Gaïa (en plage normale) | Violet | `#8b5cf6` |
-| Énergie (en plage normale) | Marron | `#A0522D` |
-| Carbone (en plage normale) | Gris | `#6b7280` |
+| Gaïa (en plage normale) | Violet | `#800080` |
+| Énergie (en plage normale) | Marron | `#a65e2e` |
+| Carbone (en plage normale) | Gris | `#6c6960` |

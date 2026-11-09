@@ -207,9 +207,9 @@ vit dans `src/hooks/gaiaContributions/`, par owner de domaine :
 |----------|--------|-------------|
 | `BLUE_COLOR` | `#3b82f6` | Sous le vital |
 | `RED_COLOR` | `#dc2626` | Au-dessus de la limite |
-| `FOOTPRINT_COLORS.gaia` | `#8b5cf6` | Violet — empreinte Gaïa |
-| `FOOTPRINT_COLORS.energie` | `#A0522D` | Marron — empreinte énergie |
-| `FOOTPRINT_COLORS.carbone` | `#6b7280` | Gris — empreinte carbone |
+| `FOOTPRINT_COLORS.gaia` | `#800080` | Violet — empreinte Gaïa |
+| `FOOTPRINT_COLORS.energie` | `#a65e2e` | Marron — empreinte énergie |
+| `FOOTPRINT_COLORS.carbone` | `#6c6960` | Gris — empreinte carbone |
 | `THRESHOLDS.carbone` | `{ vital: 1.5, limite: 4.0 }` | Seuils carbone par défaut |
 | `THRESHOLDS.energie` | `{ vital: 2000, limite: 6000 }` | Seuils énergie par défaut |
 | `THRESHOLDS.gaia` | `{ vital: 1.0, limite: 2.0 }` | Seuils Gaïa par défaut |

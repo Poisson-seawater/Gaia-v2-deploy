@@ -318,7 +318,7 @@ back to the system default.
 | Tier | Color | Constant |
 |------|-------|----------|
 | below vital | Blue `#3b82f6` | `BLUE_COLOR` |
-| in range | Footprint color (gaia `#8b5cf6` · énergie `#A0522D` · carbone `#6b7280`) | `FOOTPRINT_COLORS` |
+| in range | Footprint color (gaia `#800080` · énergie `#a65e2e` · carbone `#6c6960`) | `FOOTPRINT_COLORS` |
 | above limit | Red `#dc2626` | `RED_COLOR` |
 
 **Red priority**: a limit overshoot stays red even when a custom vital is set.

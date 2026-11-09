@@ -256,7 +256,7 @@ Carbon        = raw tCO₂/person (color vs vital/limit thresholds)
 | `normal` | Footprint color | Within normal range |
 | `above` | Red `#dc2626` | Above limit threshold |
 
-Footprint colors: Gaïa = Violet `#8b5cf6`, Energy = Brown `#A0522D`, Carbon = Grey `#6b7280`
+Footprint colors: Gaïa = Violet `#800080`, Energy = Brown `#a65e2e`, Carbon = Grey `#6c6960`
 
 ---
 

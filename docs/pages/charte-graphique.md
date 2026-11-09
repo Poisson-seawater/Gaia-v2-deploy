@@ -44,9 +44,9 @@ pilotent la coloration des territoires selon leur position vis-à-vis des seuils
 
 *   **Sous le vital** : <span style="display:inline-block;width:12px;height:12px;background:#3b82f6;border:1px solid #1d4ed8;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#3b82f6` (bleu) — `BLUE_COLOR`
 *   **Au-dessus de la limite** : <span style="display:inline-block;width:12px;height:12px;background:#dc2626;border:1px solid #b91c1c;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#dc2626` (rouge) — `RED_COLOR`
-*   **Empreinte Gaïa** : <span style="display:inline-block;width:12px;height:12px;background:#8b5cf6;border:1px solid #6d28d9;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#8b5cf6` (violet)
-*   **Empreinte Énergie** : <span style="display:inline-block;width:12px;height:12px;background:#A0522D;border:1px solid #7c3f22;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#A0522D` (marron)
-*   **Empreinte Carbone** : <span style="display:inline-block;width:12px;height:12px;background:#6b7280;border:1px solid #4b5563;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#6b7280` (gris)
+*   **Empreinte Gaïa** : <span style="display:inline-block;width:12px;height:12px;background:#800080;border:1px solid #5c005c;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#800080` (violet)
+*   **Empreinte Énergie** : <span style="display:inline-block;width:12px;height:12px;background:#a65e2e;border:1px solid #7c4522;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#a65e2e` (marron)
+*   **Empreinte Carbone** : <span style="display:inline-block;width:12px;height:12px;background:#6c6960;border:1px solid #4d4b44;border-radius:3px;vertical-align:middle;margin-right:4px;"></span> `#6c6960` (gris)
 
 > Dans la plage normale (entre vital et limite), un territoire prend la **couleur de son empreinte
 > active**. Un dépassement de limite reste **rouge** même si un vital personnalisé est défini.
